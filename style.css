@@ -1,0 +1,545 @@
+body {
+    margin: 0;
+}
+/*-----------LANGUAGE CHANGE SECTION---------
+.langWrap{
+    text-align: center;
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.langWrap a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.langWrap a.active {
+    color: red;
+}----*/
+
+/*------------NAVIGATION BAR SECTION--------------*/
+nav {
+    margin-top: 4px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-color: lightblue;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.logo , .menu , .langWrap {
+    display: inline-block;
+}
+
+.langWrap {
+    margin: 16px 0px 16px 100px;
+}
+.langWrap a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.langWrap a.active {
+    color: red;
+    }
+
+.logo {
+    float: left;
+    margin: 16px 0px 16px 50px;
+    color: #09203f;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.menu {
+    float: right;
+    margin: 0px;
+    margin-top: 16px;
+    margin-right: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 20px 10px 20px 10px ;
+}
+
+.menu ul li a:hover {
+    background-color:#accbee;
+    color: white;
+    transition: all 0.5s ease;
+}
+.sub-menu{
+    display: none;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #accbee;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block;
+    margin: 20px;
+}
+
+
+/*-------------HEADER SECTION---------------*/
+header {
+    background-image: url(images/bg.jpeg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y:-160px;
+}
+header p {
+    margin: 0px;
+}
+
+.hero-container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.btn-portfolio,.btn-resume{
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-portfolio {
+    background-color: lightblue;
+    color: white;
+    margin: 15px 10px;
+}
+
+.btn-portfolio:hover{
+    background-color: white;
+    color: lightblue;
+    transition: all 0.5s ease;
+}
+
+.btn-resume {
+    background-color: white;
+    color: lightblue;
+}
+
+.btn-resume:hover {
+    background-color: lightblue;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+/*------------ABOUT ME SECTION-------------*/
+.about-me{
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about-me:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.about-me h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-me h2::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: lightblue;
+}
+
+.about-me .col-left, .about-me .col-right {
+    width: 45%;
+    float: left;
+}
+
+.about-me .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.about-me .col-right {
+    font-size: 23px;
+}
+
+.about-me button{
+    background-color:lightblue;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    display: inline-block;
+    border: 1px solid lightblue;
+}
+
+.about-me button:hover{
+    background-color: rgb(226, 226, 226);
+    color: #accbee;
+}
+
+.about-me .col-left img {
+     max-width: 100%;
+ }
+.moreText{
+     display: none;
+ }
+.hire-me .moreText{
+     display: inline;
+ }
+ .hire-me-now .moreText{
+    display: inline;
+}
+
+ /*--------------------MY SKILLS SECTION------------------------*/
+
+ .my-skills {
+     background-color: #e2e2e2;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     text-align: center;
+ }
+
+ .my-skills h2 {
+     text-transform: uppercase;
+     position: relative;
+ }
+
+ .my-skills h2::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #accbee;
+ }
+
+ .my-skills::after{
+    content: '';
+    display: block;
+    clear: both;
+
+ }
+
+ .my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right {
+     width: 29%;
+     display: inline-block;
+     float: left;
+     padding-left: 2%;
+     padding-right: 2%;
+ }
+
+ .my-skills i {
+     font-size: 60px;
+     color: #accbee;
+ }
+
+ /*------------MY PORTPOLIO SECTION-------------*/
+ 
+ .my-portfolio {
+    background-color:#fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.my-portfolio::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.my-portfolio h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+    position: relative;
+}
+
+.my-portfolio h2::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: lightblue;
+ }
+
+.my-portfolio .portfolio1, 
+.my-portfolio .portfolio2{
+    height: 300px;
+    width: 45%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-portfolio .portfolio1 {
+    margin-left: 2%;
+    margin-right: 1.5%;
+    background-image: url(images/MusicPlayer.png);
+    background-size: cover;
+}
+
+.my-portfolio .portfolio2 {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(images/MusicQuiz.png);
+    background-size: cover;
+}
+
+.my-portfolio .portfolio3 {
+    margin-left: 1.5%;
+    margin-right: 2%;
+    background-image: url();
+    background-size: cover;
+}
+
+.my-portfolio .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-top: 310px;
+}
+
+.my-portfolio .overlay:hover {
+    background-color: rgba(0, 0 , 0, 0.6 );
+    padding-top: 130px;
+    transition: all 0.5s ease;
+}
+
+.overlay a {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*------------RESUME SECTION-------------*/
+ 
+.my-resume{
+    background-color: #e2e2e2;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.my-resume:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.my-resume h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.my-resume h2::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: lightblue;
+}
+
+.my-resume .col-left, .my-resume .col-right{
+    width: 45%;
+    float: left;
+}
+
+.my-resume .col-left {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.my-resume .col-right, .my-resume .col-left {
+    font-size: 23px;
+}
+
+.my-resume button{
+    background-color:lightblue;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    display: inline-block;
+    border: 1px solid lightblue;
+}
+
+.my-resume button:hover{
+    background-color: rgb(226, 226, 226);
+    color: #accbee;
+}
+
+.moreTextL{
+    display: none;
+}
+.read-more .moreTextL{
+   display: inline;
+}
+.read-more .moreTextL{
+   display: inline;
+}
+.moreTextR{
+     display: none;
+ }
+.hire-me .moreTextR{
+    display: inline;
+}
+.hire-me-now .moreTextR{
+    display: inline;
+}
+   
+/*--------------------CONTACT ME SECTION------------------------*/
+
+.contact-section {
+    text-align: center;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact-section h2{
+    text-transform: uppercase;
+    margin-top: o;
+    position: relative;
+}
+
+.contact-section h2::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #accbee;
+}
+.social-container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.social-container i {
+    float: left;
+    margin-top: 17px;
+    margin-right: 20px;
+    font-size: 24px;
+    color: #accbee;
+}
+
+.col-1 p,
+.col-2 p,
+.col-3 p{
+    display: inline-block;
+}
+
+.col-1, .col-2 , .col-3 {
+    width: 24%;
+    display: inline-block;
+    float: left;
+}
+
+
+
+.text-bold{
+    color: #333;
+    font-weight: bold;
+}
+
+/*--------------------FOOTER SECTION------------------------*/
+
+footer{
+    background-color: #777777;
+    color: #333;
+    padding: 20px 40px;
+}
+
+footer::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer-text {
+    float: left;
+}
+
+.footer-text i {
+  color: #fff;
+}
+
+.social {
+    float: right;
+    margin-top: 12px;
+}
+
+.social a i {
+    font-size: 25px;
+    padding: 10px 10px;
+    color: #333;
+}
+
+.social a i :visited {
+    color: #333;
+}
+
+.social a :hover {
+    color: #fff;
+    background-color: #333;
+    transition: all 0.5s ease;
+   
+}
+
+.footer-text p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+

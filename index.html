@@ -1,0 +1,211 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4890a74456.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------LANGUAGE CHANGE SECTION-->
+<div class="container">
+    
+    <!--NAVIGATION BAR SECTION-->
+    <nav>
+        <div class="logo">HELLO</div>
+        <div class="langWrap">
+            <a href="#" language='japanese' class="active">あ</a><abbr title="slite"> /</abbr>
+            <a href="#" language='english'>EN</a>
+        </div>
+    
+        <div class="menu">
+            <ul>
+                <li><a href="#home" class="home">ホーム</a></li>
+                <li><a href="#about" class="about">私について</a></li>
+                <li><a href="#skill" class="skill">スキル</a></li>
+                <li><a href="#portfolio" class="portfolio">ポートフォリオ</a>
+                    <div class="sub-menu">
+                        <ul> 
+                            <li><a href="#portfolio" class="port">ポートフォリオ</a></li>
+                            <li><a href="#resume" class="resume">履歴書</a></li>
+                        </ul> 
+                    </div>
+                </li>
+                <li><a href="#contact" class="contact">問い合せ</a></li>
+            </ul>
+        </div>  
+    </nav>
+    
+    <!--HEADER BAR SECTION-->
+    
+    <header>
+        <div class="hero-container" id="home">
+            <p class="intro">ニンウィッイータウンです。</p>
+            <h2 class="hero">フロントエンドエンジニアになるため頑張ってます。</h2>
+            <a href="#portfolio" class="btn-portfolio">ポートフォリオを見る</a>
+            <a href="#resume" class="btn-resume">履歴書を見る</a>
+        </div>        
+    </header>
+    
+    <!--ABOUT ME SECTION-->
+    
+    <div class="about-me" id="about">
+        <h2 class="aboutMeTitle">私について</h2>
+        <div class="col-left">
+            <img src="images/hnin.jpg" alt="hnin photo">
+        </div>
+        
+        <div class="col-right">
+            <p class="text">初めまして！<br/>
+            <strong>ニンウィッイータウン</strong>です。<br/></br>
+            ミャンマーから参りまして、現在岡山県に住んでます。</br>2017年にミャンマーのYezin農業大学を卒業しました。</br></br><strong>フロントエンドのウェブ開発者</strong>になるため頑張っています。<br/><br/>
+            2022年の私の目標はウェブ開発者として転職出来ることです。<br/><br/>
+            私は独学でHTML、CSS、JavaScriptを学んで来ました。将来には、<strong>フルスタックのウェブ開発者</strong>になりたいと思っています。<br/><br/>
+            旅行することと、友達と時間過ごすことが好きです。<br/><br/>
+            私のポートフォリオを見て、私のスキルをチェックして、私は貴社が求めてる求人のポジションに合ってるかをご確認ください。<br/><br/>どうぞよろしくお願いいたします。
+        </div>
+    </div>
+    
+    <!--MY SKILLS SECTION-->
+    
+    <div class="my-skills" id="skill">
+        <h2 class="skillTitle">スキル</h2>
+        <div class="skills-left">
+            <i class="fas fa-code"></i>
+            <h3 class="language">プログラミング言語</h3>
+            <p>HTML, CSS, JAVASCRIPT, JAVA</p>
+        </div>
+        <div class="skills-center">
+            <i class="fab fa-github"></i>
+            <h3 class="verCon">バーション管理</h3>
+            <p>GITHUB</p>
+        </div>
+        <div class="skills-right">
+            <i class="fas fa-database"></i>
+            <h3 class="DB">データベース</h3>
+            <p>MYSQL</p>
+        </div>        
+    </div>
+    
+    <!--MY PORTFOLIO SECTION-->
+    
+    <div class="my-portfolio" id="portfolio">
+        <h2 class="portTitle">ポートフォリオ</h2>
+        <div class="portfolio1">
+           <div class="overlay">
+               <a href="https://hninse.github.io/Music-Player/" target="blank" class="view1">VIEW PORTFOLIO</a>
+           </div>
+        </div>
+        <div class="portfolio2">
+            <div class="overlay">
+               <a href="https://github.com/HninSe/Music-Quiz" target="blank" class="view2">VIEW PORTFOLIO</a>
+           </div>
+        </div>
+        
+    </div>
+    
+    <!--RESUME SECTION-->
+    
+    <div class="my-resume" id="resume">
+        <h2 class="resumeTitle">履歴書</h2>
+        <div class="col-left">
+            <h3 class="background">転職利用</h3>
+            <p class="left-text">ニンウィッイータウンと申します。
+                今は25歳で、ミャンマー出身です。2017年に園芸及び農業バイオテクノロジ分野でミャンマーのイェジン農業大学を卒業しました。
+                私は農業者として日本で3年以上働いてきまして、一生農業者として働きつづくことができない事を気づきました。
+                キャリアを変えることに決め、自分に最も合うキャリアを探しました。</br>
+                <span class="moreTextL">現代、私たちの日常生活の中でウェブサービスを利用し、生活がより便利になっていることに気づき、
+                そういうウェブサービスを作る人間になりたいと思いました。それから私はウェブ開発者になることに決めました。</p></span>
+                <button class="read-more" onclick="">もっと見る</button>
+        </div>
+        <div class="col-right">
+            <h3 class="appeal">アピール</h3>
+            <p class="right-text">
+                HTML、CSS、JAVASCRIPTを独学で勉強し、3つのポートフォリオを作成しました。
+                今のところ、フロントエンドウェブ開発者になろうとしていますが、
+                将来的にはフルスタックのウェブ開発者になりたいと思います。これからは、フレームワークやUI/UXなどの
+                フロントエンド開発に必要な技術を学び、優れたフロントエンドウェブ開発者になります。</br>
+            <span class="moreTextR">ご覧になってくれてありがとうございます。<br/>
+                そして私は貴社と一緒に働く機会を得るかもしれませんと思って嬉しいです。
+                今のところ私は未経験ですが、将来的には最高のWeb開発者の1人になると信じています。</p></span> 
+            <button class="hire-me" onclick="">採用する</button>
+        </div>
+    </div>
+    
+    <!-- CONTACT ME SECTION-->
+    
+    <div class="contact-section" id="contact">
+        <h2 class="contactTitle">問い合せ</h2>
+    
+        <div class="social-container">
+            <p class="contactT">連絡かフォローかしてくれると嬉しいです:</p>
+      
+            <div class="col-1">
+                <div class="line1">
+                    <i class="fab fa-instagram"></i>
+                    <p>
+                        <span class="text-bold">Instagram : </span><br />
+                        <a href="https://www.instagram.com/hninwutye.thaung.3/">@hninwutye.thaung.3</a> 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-2">
+                <div class="line1">
+                    <i class="fab fa-github"></i>
+                    <p>
+                        <span class="text-bold">GitHub : </span><br />
+                        <a href="https://github.com/HninSe">@HninSe</a> 
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-3">  
+                <div class="line1">
+                    <i class="fas fa-phone"></i>
+                    <p>
+                        <span class="text-bold">Phone no: </span><br />
+                        <a href="tel:07026102113">07026102113</a> 
+                    </p>
+                </div>
+            </div>
+            <div> 
+                <div class="line1">
+                    <i class="fas fa-envelope-square"></i>
+                    <p>
+                        <span class="text-bold">Email: </span><br />
+                        <a href="mailto: hninwutyethaung067@gmail.com">hninwutyethaung067@gmail.com</a>
+                    </p> 
+                </div>   
+            </div>
+        </div>
+</div>
+
+    <!-- FOOTER SECTION-->
+
+<footer>
+    
+    <div class="footer-text">
+        <p>
+            &copy; 2021, All Rights Reserved, Developed by Hnin Wutye Thaung<br />
+            Made with <i class="fas fa-heart"></i>
+        </p>
+    </div>
+
+    <div class="social">
+        <a href="https://www.instagram.com/hninwutye.thaung.3/"><i class="fab fa-instagram"></i></a> 
+        <a href="https://twitter.com/ThaungWutye"><i class="fab fa-twitter"></i></a> 
+        <a href="https://github.com/HninSe"><i class="fab fa-github"></i></a> 
+        <a href="https://www.facebook.com/hninwutye.thaung.3"><i class="fab fa-facebook"></i></a> 
+    </div>
+    
+</footer>
+
+<script src="main.js"></script>
+    
+</body>
+</html>
