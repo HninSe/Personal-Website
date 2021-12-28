@@ -166,8 +166,8 @@ header p {
 }
 
 .about-me .col-left {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .about-me .col-right {
@@ -176,11 +176,7 @@ header p {
 }
 
 .about-me .col-left img{
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 500px;
-    background-color:#333333;
+    max-width: 100%;
     border-radius: 50%;
 }
 
@@ -359,8 +355,8 @@ header p {
 }
 
 .my-resume .col-left {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .my-resume .col-right, .my-resume .col-left {
