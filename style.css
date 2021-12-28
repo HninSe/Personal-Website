@@ -363,6 +363,10 @@ header p {
     padding-right: 4%;
 }
 
+.my-resume .col-left a{
+    text-decoration: none;
+}
+
 .my-resume .col-right, .my-resume .col-left {
     font-size: 23px;
     text-align: justify;
