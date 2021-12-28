@@ -175,6 +175,10 @@ header p {
     text-align: justify;
 }
 
+.about-me .col-right a{
+    text-decoration: none;
+}
+
 .about-me .col-left img{
     max-width: 100%;
     border-radius: 50%;
