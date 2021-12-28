@@ -24,7 +24,7 @@ readmoreBtn.addEventListener('click', (e) =>{
     }
 })
 
-//language change 
+/*language change 
         const langEl = document.querySelector('.langWrap');
         const link = document.querySelectorAll('a');
 
@@ -173,4 +173,4 @@ readmoreBtn.addEventListener('click', (e) =>{
             }
         }
         
-    
+    */
