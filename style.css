@@ -1,20 +1,6 @@
 body {
     margin: 0;
 }
-/*-----------LANGUAGE CHANGE SECTION---------
-.langWrap{
-    text-align: center;
-    background-color: lightblue;
-    display: inline-block;
-}
-
-.langWrap a {
-    text-decoration: none;
-    font-weight: bold;
-}
-.langWrap a.active {
-    color: red;
-}----*/
 
 /*------------NAVIGATION BAR SECTION--------------*/
 nav {
@@ -180,42 +166,28 @@ header p {
 }
 
 .about-me .col-left {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-
 
 .about-me .col-right {
     font-size: 23px;
+    text-align: justify;
 }
 
-.about-me button{
-    background-color:lightblue;
-    padding: 10px 25px;
-    text-decoration: none;
-    color: white;
-    border-radius: 20px;
-    font-size: 17px;
-    display: inline-block;
-    border: 1px solid lightblue;
+.about-me .col-left img{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    background-color:#333333;
+    border-radius: 50%;
 }
 
-.about-me button:hover{
-    background-color: rgb(226, 226, 226);
-    color: #accbee;
-}
-
-.about-me .col-left img {
-     max-width: 100%;
- }
-.moreText{
-     display: none;
- }
-.hire-me .moreText{
-     display: inline;
- }
- .hire-me-now .moreText{
-    display: inline;
+.about-me .col-left img:hover{
+    color: #111; 
+    background: lightblue; 
+    box-shadow: 0 0 100px lightblue; 
 }
 
  /*--------------------MY SKILLS SECTION------------------------*/
@@ -387,12 +359,13 @@ header p {
 }
 
 .my-resume .col-left {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .my-resume .col-right, .my-resume .col-left {
     font-size: 23px;
+    text-align: justify;
 }
 
 .my-resume button{
