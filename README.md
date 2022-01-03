@@ -15,12 +15,15 @@ Aim for the interviewer to know about me via this website.
   * Resume
 * Contact
 
-## Screenshort
-![alt text](http://url/to/img.png)
-
 ## Technologies
 * HTML
 * CSS
 * JavaScript
+
+## Screenshort
+![alt text](https://github.com/HninSe/Personal-Website/blob/main/images/img.jpg?raw=true)
+
+
+
 
 
