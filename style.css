@@ -474,8 +474,8 @@ header p {
 /*--------------------FOOTER SECTION------------------------*/
 
 footer{
-    background-color: #777777;
-    color: #333;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-color: lightblue;
     padding: 20px 40px;
 }
 
