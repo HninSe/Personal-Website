@@ -483,6 +483,7 @@ footer::after {
     content: '';
     display: block;
     clear: both;
+    
 }
 
 .footer-text {
